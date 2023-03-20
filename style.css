@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 350;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 21cm;
+    height: 29.7cm;
+    align-content: flex-start;
+    margin-left:auto ;
+    margin-right:auto;
+    background: linear-gradient(to right,
+    #e2ecf9 max(200px, 25%),
+    #ffffff max(200px, 25%) 100%
+    );
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+
+header img{
+    height: 100%;
+    float: left;
+    border-radius: 50%;
+}
+
+#title{
+    width: 100%;
+    float: right;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#name{
+    font-size: 50px;
+}
+
+#short_description{
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background: linear-gradient(
+        transparent 20%,
+        #8cb3e7 20% 80%,
+        transparent 80% 100%
+        );
+    max-height: 200px;
+    height: 200px;
+}
+
+#left{
+    flex-basis: max(200px, 25%);
+}
+
+#left h3{
+    font-size: 24px;
+    border-bottom: 3px solid #8cb3e7;
+    padding-bottom: 5px;
+}
+
+#left h5{
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+#left p{
+    font-size: 16px;
+}
+
+#left *{
+    padding-left: 8px;
+}
+
+#langs_h3{
+    padding-top: 20px;
+}
+
+#langs_p{
+    padding-top: 10px;
+}
+
+#right{
+    width: 1px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#right h2{
+    padding-bottom: 16px;
+    font-size: 30px;
+}
+
+#right p, ul{
+    padding: 0 30px 50px 30px;
+    font-size: 18px;
+    list-style-position: inside;
+}
+
+.text{
+    text-align: justify;
+}
+
+#right{
+    font-size: 20px;
+}
+
+#projects{
+    text-align: right;
+}
+
+a{
+    color: black;
+}
