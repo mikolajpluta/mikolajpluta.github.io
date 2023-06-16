@@ -84,8 +84,12 @@ header{
     padding-left: 8px;
 }
 
-#langs_h3{
+.skillsLanguages{
     padding-top: 20px;
+}
+
+#skills{
+    padding-bottom: 0px;
 }
 
 #langs_p{
@@ -107,6 +111,10 @@ header{
     padding: 0 30px 50px 30px;
     font-size: 18px;
     list-style-position: inside;
+}
+
+#workHistory p{
+    padding-bottom: 20px;
 }
 
 .text{
