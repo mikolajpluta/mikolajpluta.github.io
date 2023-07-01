@@ -107,7 +107,7 @@ header{
     font-size: 30px;
 }
 
-#right p, ul{
+.text, ul, #projects{
     padding: 0 30px 50px 30px;
     font-size: 18px;
     list-style-position: inside;
